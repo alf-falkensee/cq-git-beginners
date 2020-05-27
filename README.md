@@ -1,5 +1,6 @@
 # cq-git-beginners
-Start using git from R-Studio and switch to an online repository
+
+*Start using git from R-Studio and switch to an online repository*
 
 This is a list of steps to take in order to get a local history for
 source and resource files from inside R-Studio. Additionally the
@@ -16,18 +17,19 @@ and readers.
 
 ## Setup git for your project from within R-Studio
 
-1) go through Tools - Version Control - Project Setup
-2) use add, commit and shell functionalities
-3) as an alternative to step 1) use git init from where the .Rproj file is located
+1) go through `Tools - Version Control - Project Setup` from within R-Studio
+2) use `git add`, `git commit`, `shell` and other git functionalities of R-Studio
+3) as an alternative to step 1) use `git init` from where the .Rproj file is located
 
 ## What's missing to go online?
 
-git is much more than about local histories; having his code online is
-for instance a good poor-programmer's backup.
+`git` is much more than about local histories; having his code online is
+for instance a rather good poor-programmer's backup.
 
 ### write/publish
 1) create *a-repository-name* as signed-in github.com user *a-git-username*
-    - make sure to respect copyrights and 
+	- make sure to respect copyrights and politeness already at this
+      step; it is partly too late once things are online.
 
 2) git remote add origin https://github.com/a-git-username/a-repository-name.git
     - from where the .Rproj file is located
