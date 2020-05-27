@@ -46,4 +46,5 @@ for instance a rather good poor-programmer's backup.
 - e.g. `git clone https://github.com/alf-falkensee/cq-git-beginners.git`
   - or clone whatever is available to get cloned on gitlab, bitbucket,
     github,etc... If you want subsequently to participate to the
-    cloned repository, learn about git's pull requests.
+    cloned repository, learn about git's pull requests for instance on
+    https://lab.github.com/.
