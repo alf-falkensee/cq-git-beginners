@@ -40,10 +40,10 @@ for instance a rather good poor-programmer's backup.
       the local one, one has to override corresponding git restrictions to
       the merge of unrelated histories.
 
-4) git push -u origin master
+4) `git push -u origin master`
 
 ### read
-- git clone https://github.com/alf-falkensee/cq-git-beginners.git
-  - or clone whatever is allowed to be cloned; if you want
-    subsequently to participate to the cloned repository, learn about
-    pull requests, though.
+- e.g. `git clone https://github.com/alf-falkensee/cq-git-beginners.git`
+  - or clone whatever is available to get cloned on gitlab, bitbucket,
+    github,etc... If you want subsequently to participate to the
+    cloned repository, learn about git's pull requests.
