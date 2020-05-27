@@ -22,24 +22,26 @@ and readers.
 
 ## What's missing to go online?
 
-### git clone https://github.com/alf-falkensee/cq-git-beginners.git
+git is much more than about local histories; having his code online is
+for instance a good poor-programmer's backup.
 
-### create *a-repository-name* as signed-in github.com user *a-git-username*
+### write/publish
+1) create *a-repository-name* as signed-in github.com user *a-git-username*
+    - make sure to respect copyrights and 
 
-- make sure to respect copyrights and 
+2) git remote add origin https://github.com/a-git-username/a-repository-name.git
+    - from where the .Rproj file is located
 
-### git remote add origin https://github.com/a-git-username/a-repository-name.git
+3) git pull --allow-unrelated-histories
+    - since this mini-tutorial has a working local .git repository as a
+      pre-condition and the online repository is potentially created after
+      the local one, one has to override corresponding git restrictions to
+      the merge of unrelated histories.
 
-- from where the .Rproj file is located
+4) git push -u origin master
 
-### git pull --allow-unrelated-histories
-
-- since this mini-tutorial has a working local .git repository as a
-  pre-condition and the online repository is potentially created after
-  the local one, one has to override corresponding git restrictions to
-  the merge of unrelated histories.
-
-### git push -u origin master
-
-
-
+### read
+- git clone https://github.com/alf-falkensee/cq-git-beginners.git
+  - or clone whatever is allowed to be cloned; if you want
+    subsequently to participate to the cloned repository, learn about
+    pull requests, though.
