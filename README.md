@@ -31,10 +31,10 @@ for instance a rather good poor-programmer's backup.
 	- make sure to respect copyrights and politeness already at this
       step; it is partly too late once things are online.
 
-2) git remote add origin https://github.com/a-git-username/a-repository-name.git
+2) `git remote add origin https://github.com/a-git-username/a-repository-name.git`
     - from where the .Rproj file is located
 
-3) git pull --allow-unrelated-histories
+3) `git pull --allow-unrelated-histories`
     - since this mini-tutorial has a working local .git repository as a
       pre-condition and the online repository is potentially created after
       the local one, one has to override corresponding git restrictions to
